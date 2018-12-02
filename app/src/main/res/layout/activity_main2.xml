@@ -88,7 +88,6 @@
         android:textSize="18sp"
         android:textStyle="bold" />
 
-<<<<<<< HEAD
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -102,7 +101,6 @@
 
 
     </LinearLayout>
-=======
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
@@ -116,7 +114,6 @@
         app:layout_constraintRight_toRightOf="parent"
         app:menu="@menu/navigation" />
 
->>>>>>> 89233d7c0a9c25dab0597f41970a3d18f28c77ad
 
 
 </RelativeLayout>
