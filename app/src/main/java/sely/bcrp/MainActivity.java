@@ -1,6 +1,5 @@
 package sely.bcrp;
 
-import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.design.widget.BottomNavigationView;
@@ -10,13 +9,12 @@ import android.support.v4.app.FragmentTransaction;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
 import android.widget.Button;
-import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
 
     private F_ModuloInt moduloInt = new F_ModuloInt();
+    private FragmentSecond escan = new FragmentSecond();
     private FragmentFirst first = new FragmentFirst();
-    private FragmentSecond second = new FragmentSecond();
 
 
     private Button btn;
@@ -26,8 +24,6 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-            FragmentManager fragmentManager = getSupportFragmentManager();
-            FragmentTransaction transaction = fragmentManager.beginTransaction();
 
             switch (item.getItemId()) {
                 case R.id.navigation_home:
@@ -35,7 +31,7 @@ public class MainActivity extends AppCompatActivity {
                     //mTextMessage.setText(R.string.title_home);
                     return true;
                 case R.id.navigation_dashboard:
-                    openFragment(second);
+                    openFragment(escan);
                     //mTextMessage.setText(R.string.title_dashboard);
                     return true;
                 case R.id.navigation_notifications:
@@ -46,7 +42,6 @@ public class MainActivity extends AppCompatActivity {
                     //mTextMessage.setText(R.string.title_settings);
                     return true;
             }
-            transaction.commit();
             return false;
         }
 
@@ -59,8 +54,6 @@ public class MainActivity extends AppCompatActivity {
         }
 
     };
-
-
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
