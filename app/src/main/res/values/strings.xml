@@ -8,9 +8,22 @@
     <string name="button_language">Idioma</string>
     <string name="button_pfrecuentes">Preg. Frecuentes</string>
     <string name="button_contactanos">Contactanos</string>
+
+
 <string name="title_settings">Configuración</string>
     <string name="terminosyc">Term. y Condic.</string>
 
 <!-- TODO: Remove or change this placeholder text -->
-<string name="hello_blank_fragment">Bienvenido</string>
+    <string name="hello_blank_fragment">Bienvenido</string>
+    <string name="seleccione_billetes">Seleccione Billetes</string>
+
+
+    <string-array name="billetes_arrays">
+        <item>20</item>
+        <item>100</item>
+
+    </string-array>
+
+
+
 </resources>
