@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#fff"
-    tools:context=".MainActivity">
+    tools:context=".FragmentSecond">
 
-    <TextView
+    <!-- TODO: Update blank fragment layout -->
 
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:background="@color/colorPrimary"
-        android:gravity="center_horizontal"
-        android:text="Identifica Billete o moneda" />
+        android:layout_height="match_parent">
 
     <ImageButton
         android:id="@+id/billete"
@@ -87,33 +81,5 @@
         android:textColor="#000"
         android:textSize="18sp"
         android:textStyle="bold" />
-
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/textView"
-        android:layout_alignLeft="@+id/textView"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="-126dp"
-        android:layout_marginLeft="-126dp"
-        android:layout_marginBottom="4dp"
-        android:orientation="horizontal">
-
-
-    </LinearLayout>
-
-    <android.support.design.widget.BottomNavigationView
-        android:id="@+id/navigation"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="0dp"
-        android:layout_marginStart="0dp"
-        android:background="?android:attr/windowBackground"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:menu="@menu/navigation" />
-
-
-
-</RelativeLayout>
+    </RelativeLayout>
+</FrameLayout>
