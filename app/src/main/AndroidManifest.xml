@@ -19,6 +19,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".SecondAct"></activity>
+
     </application>
 
 </manifest>
