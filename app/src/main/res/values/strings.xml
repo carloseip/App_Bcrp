@@ -1,12 +1,12 @@
 <resources>
-<string name="app_name">Chequea la verdad</string>
-<string name="title_home">Aprende</string>
-<string name="title_dashboard">Identifica</string>
-<string name="title_notifications">Info</string>
-<string name="button_billete">Billete</string>
-<string name="button_money">Moneda</string>v
-<string name="title_settings">Configuración</string>
+    <string name="app_name">Chequea la verdad</string>
+    <string name="title_home">Aprende</string>
+    <string name="title_dashboard">Identifica</string>
+    <string name="title_notifications">Info</string>
+    <string name="button_billete">Billete</string>
+    <string name="button_money">Moneda</string>v
+    <string name="title_settings">Configuración</string>
 
-<!-- TODO: Remove or change this placeholder text -->
-<string name="hello_blank_fragment">Bienvenido</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Bienvenido</string>
 </resources>
