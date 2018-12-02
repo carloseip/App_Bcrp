@@ -3,7 +3,11 @@
 
     <item
         android:id="@+id/navigation_home"
+<<<<<<< HEAD
         android:icon="@drawable/notes"
+=======
+        android:icon="@drawable/settings"
+>>>>>>> 89233d7c0a9c25dab0597f41970a3d18f28c77ad
         android:title="@string/title_home"/>
 
     <item
@@ -13,12 +17,20 @@
 
     <item
         android:id="@+id/navigation_notifications"
+<<<<<<< HEAD
         android:icon="@drawable/checklist"
         android:title="@string/title_notifications"/>
 
     <item
         android:id="@+id/navigation_settings"
         android:icon="@drawable/settings"
+=======
+        android:icon="@drawable/notes"
+        android:title="@string/title_notifications"/>
+    <item
+        android:id="@+id/navigation_notification"
+        android:icon="@drawable/checklist"
+>>>>>>> 89233d7c0a9c25dab0597f41970a3d18f28c77ad
         android:title="@string/title_notifications"/>
 
 </menu>
