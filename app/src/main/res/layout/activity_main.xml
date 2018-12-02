@@ -5,6 +5,7 @@
     android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+<<<<<<< HEAD
     android:orientation="vertical"
     tools:context=".MainActivity">
 
@@ -75,6 +76,10 @@
             tools:layout_editor_absoluteX="130dp"
             tools:layout_editor_absoluteY="373dp" />
     </LinearLayout>
+=======
+    tools:context=".MainActivity"
+    android:background="@color/colorLigthWhite">
+>>>>>>> a3dd280d2f015c8e68e32385348edf353313a76d
 
     <android.support.design.widget.BottomNavigationView
         android:id="@+id/navigation"
