@@ -15,39 +15,21 @@
         android:layout_alignParentLeft="true"
         android:background="@color/colorPrimary"
         android:gravity="center_horizontal"
-        android:text="Sl.100 Billete de 100" />
+        android:text="Sl.5 Moneda de 5" />
 
 
     <ImageView
-        android:id="@+id/moneda"
-        android:layout_width="364dp"
-        android:layout_height="wrap_content"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
+        android:id="@+id/agrandar3"
+        android:layout_width="175dp"
+        android:layout_height="186dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
         android:layout_alignParentRight="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="197dp"
-        android:layout_marginEnd="0dp"
-        android:layout_marginRight="0dp"
-        android:rotation="90"
-        android:src="@drawable/vertical" />
-
-
-    <ImageView
-        android:id="@+id/agrandar"
-        android:layout_width="60dp"
-        android:layout_height="60dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="146dp"
-        android:layout_marginLeft="146dp"
-        android:layout_marginBottom="308dp"
-        android:innerRadius="0dp"
-        app:srcCompat="@drawable/plus" />
+        android:layout_marginTop="97dp"
+        android:layout_marginEnd="94dp"
+        android:layout_marginRight="94dp"
+        android:innerRadius="100dp"
+        app:srcCompat="@drawable/moneda" />
 
     <ImageView
         android:id="@+id/agrandar2"
@@ -56,22 +38,11 @@
         android:layout_alignParentStart="true"
         android:layout_alignParentLeft="true"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="210dp"
-        android:layout_marginLeft="210dp"
-        android:layout_marginBottom="114dp"
+        android:layout_marginStart="234dp"
+        android:layout_marginLeft="234dp"
+        android:layout_marginBottom="224dp"
         android:innerRadius="0dp"
         app:srcCompat="@drawable/plus" />
-
-
-
-
-
-
-
-
-
-
-
 
 
 </RelativeLayout>
