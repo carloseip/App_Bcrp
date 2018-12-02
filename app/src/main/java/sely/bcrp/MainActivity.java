@@ -15,6 +15,7 @@ public class MainActivity extends AppCompatActivity {
     private F_ModuloInt moduloInt = new F_ModuloInt();
     private FragmentSecond escan = new FragmentSecond();
     private FragmentFirst first = new FragmentFirst();
+    private Ajustes ajustes = new Ajustes();
 
 
     private Button btn;
@@ -38,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                     //mTextMessage.setText(R.string.title_notifications);
                     return true;
                 case R.id.navigation_settings:
-
+                    openFragment(ajustes);
                     //mTextMessage.setText(R.string.title_settings);
                     return true;
             }
