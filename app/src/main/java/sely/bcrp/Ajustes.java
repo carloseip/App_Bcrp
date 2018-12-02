@@ -13,12 +13,12 @@ import android.widget.Toast;
 /**
  * A simple {@link Fragment} subclass.
  * Activities that contain this fragment must implement the
- * {@link FragmentFirst.OnFragmentInteractionListener} interface
+ * {@link Ajustes.OnFragmentInteractionListener} interface
  * to handle interaction events.
- * Use the {@link FragmentFirst#newInstance} factory method to
+ * Use the {@link Ajustes#newInstance} factory method to
  * create an instance of this fragment.
  */
-public class FragmentFirst extends Fragment {
+public class Ajustes extends Fragment {
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
     private static final String ARG_PARAM1 = "param1";
@@ -30,7 +30,7 @@ public class FragmentFirst extends Fragment {
 
     private OnFragmentInteractionListener mListener;
 
-    public FragmentFirst() {
+    public Ajustes() {
         // Required empty public constructor
     }
 
@@ -40,11 +40,11 @@ public class FragmentFirst extends Fragment {
      *
      * @param param1 Parameter 1.
      * @param param2 Parameter 2.
-     * @return A new instance of fragment FragmentFirst.
+     * @return A new instance of fragment Ajustes.
      */
     // TODO: Rename and change types and number of parameters
-    public static FragmentFirst newInstance(String param1, String param2) {
-        FragmentFirst fragment = new FragmentFirst();
+    public static Ajustes newInstance(String param1, String param2) {
+        Ajustes fragment = new Ajustes();
         Bundle args = new Bundle();
         args.putString(ARG_PARAM1, param1);
         args.putString(ARG_PARAM2, param2);
@@ -65,7 +65,7 @@ public class FragmentFirst extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_fragment_first, container, false);
+        return inflater.inflate(R.layout.f_ajustes, container, false);
     }
 
     // TODO: Rename method, update argument and hook method into UI event
@@ -81,7 +81,7 @@ public class FragmentFirst extends Fragment {
         if (context instanceof OnFragmentInteractionListener) {
             mListener = (OnFragmentInteractionListener) context;
         } else {
-            Toast.makeText(context, "Notification", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Ajustes", Toast.LENGTH_SHORT).show();
         }
     }
 

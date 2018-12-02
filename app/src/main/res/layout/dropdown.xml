@@ -6,13 +6,10 @@
 
     <TextView
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:background="@color/colorPrimary"
+        android:layout_height="wrap_content"
         android:gravity="center_horizontal"
         android:text="Consulta de billete falsificados"
-        android:textSize="30sp" />
+        android:textSize="20dp" />
 
     <Spinner
         android:id="@+id/spinner1"

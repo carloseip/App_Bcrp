@@ -8,20 +8,23 @@
 
     <!-- TODO: Update blank fragment layout -->
 
-    <TextView
 
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:background="@color/colorPrimary"
-        android:gravity="center_horizontal"
-        android:text="Identifica Billete o moneda" />
 
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@color/colorLigthWhite">
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="0dp"
+            android:gravity="center_horizontal"
+            android:text="Identifica Billete o moneda" />
 
     <ImageButton
         android:id="@+id/billete"
@@ -72,26 +75,18 @@
         android:layout_marginRight="28dp"
         android:src="@drawable/moneda" />
 
+        <TextView
+            android:id="@+id/textV2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView2"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginTop="354dp"
+            android:text="MONEDAS"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/text2"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentTop="true"
-        android:layout_alignParentEnd="true"
-        android:layout_alignParentRight="true"
-        android:layout_alignParentBottom="true"
-        android:layout_marginStart="148dp"
-        android:layout_marginLeft="148dp"
-        android:layout_marginTop="386dp"
-        android:layout_marginEnd="151dp"
-        android:layout_marginRight="151dp"
-        android:layout_marginBottom="156dp"
-        android:text="MONEDAS"
-        android:textColor="#000"
-        android:textSize="18sp"
-        android:textStyle="bold" />
-    </RelativeLayout>
+        </RelativeLayout>
 </FrameLayout>

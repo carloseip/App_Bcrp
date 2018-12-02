@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Ajustes">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorLigthWhite"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_horizontal"
+            android:text="Ajustes"
+            android:textSize="30sp"
+            android:textColor="@color/colorAccent"/>
+
+        <Button
+            android:id="@+id/button_pfrecuentes"
+            android:layout_width="182dp"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@+id/button_contactanos"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="133dp"
+            android:layout_marginRight="0dp"
+            android:drawableLeft="@drawable/information"
+            android:drawablePadding="5dp"
+            android:text="@string/button_billete"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_contactanos"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="215dp"
+            android:drawableLeft="@drawable/phonecall"
+            android:drawablePadding="5dp"
+            android:text="@string/button_contactanos"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_terminosyc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginTop="385dp"
+            android:layout_marginEnd="85dp"
+            android:layout_marginRight="85dp"
+            android:drawableLeft="@drawable/openbook"
+            android:drawablePadding="5dp"
+            android:text="@string/terminosyc"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/button_language"
+            android:layout_width="192dp"
+            android:layout_height="wrap_content"
+
+
+            android:layout_alignLeft="@+id/button_pfrecuentes"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="-3dp"
+            android:layout_marginTop="296dp"
+            android:drawableLeft="@drawable/language"
+            android:drawablePadding="5dp"
+            android:text="@string/button_language"
+            android:textColor="#000"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+</FrameLayout>
