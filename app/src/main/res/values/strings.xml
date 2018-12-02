@@ -1,6 +1,10 @@
 <resources>
-    <string name="app_name">app_bcrp</string>
-    <string name="title_home">Home</string>
-    <string name="title_dashboard">Dashboard</string>
-    <string name="title_notifications">Notifications</string>
+    <string name="app_name">Chequea la verdad</string>
+    <string name="title_home">Aprende</string>
+    <string name="title_dashboard">Identifica</string>
+    <string name="title_notifications">Info</string>
+    <string name="title_settings">Configuración</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Bienvenido</string>
 </resources>
